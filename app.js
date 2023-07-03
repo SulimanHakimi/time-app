@@ -16,6 +16,8 @@ function updateTime() {
   //   getHour = `0${getHour}`;
   // }
 
+  // dummy changes
+
   getHour = getHour.toString().padStart(2, "0");
 
   getMin = getMin.toString().padStart(2, "0");
